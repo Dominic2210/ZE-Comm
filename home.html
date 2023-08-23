@@ -5,36 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/db41875cdd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,600&display=swap" rel="stylesheet">
     <title>ZE-Comm| For your apparel needs</title>
 </head>
 <body>
     <!--*-------------------------------------- NAVBAR: start --------------------------------------*-->
-    <!--*TODO: Resize "pages-text-component"-->
     <section class="sect-layout sect-nav">
         <nav class="navbar">
             <div class="title-heading">
-                <h1><a href="home.html" class=""><span class="title-heading ze">ZE</span><span class="title-heading comm">Comm</span></a></h1>
+                <h1><a href="home.html" class="home-link"><span class="title-heading ze">ZE</span><span class="title-heading comm">Comm</span></a></h1>
             </div>
             <div class="pages-text-component">
                 <ul class="pg-txt-list">
                     <li><a href="home.html" class="pg-txt-link">HOME</a></li>
                     <li><a href="explore.html" class="pg-txt-link">EXPLORE</a></li>
-                    <li><a href="" class="pg-txt-link">REFERENCE</a></li>       <!--*TODO: Add href value for reference-->
-                    <li><a href="#contact-sect" class="pg-txt-link">CONTACT</a></li>
+                    <li><a href="https://www.myntra.com/" target="-blank" class="pg-txt-link">REFERENCE</a></li>
+                    <li><a href="" class="pg-txt-link">CONTACT</a></li>
                 </ul>
             </div>
 
             <div class="search-bar">
                 <input type="search" class="srch-bar-input" placeholder="Search Your next Outfit">
-                <button></button>           <!--*TODO: Add search icon-->
+                <button type="submit" class="srch-btn"><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #ffffff;"></i></button>           
             </div>
 
             <div class="pages-icons-component">
-                <ul class="pg-icon-list"> <!--*TODO: Add icons to each link-->
-                    <li><a href="" class="pg-icon-link">Wishlist</a></li>
-                    <li><a href="" class="pg-icon-link">Cart</a></li>
-                    <li><a href="" class="pg-icon-link">Profile</a></li>
-                </ul>
+
+                <a href="cart.html" class="pg-icon-link">
+                    <span>
+                        <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #ffffff;"></i>
+                    </span>
+                </a>
+                <a href="" class="pg-icon-link">
+                    <span>
+                        <i class="fa-solid fa-heart fa-beat fa-2xl" style="color: #cc001b;"></i>
+                    </span>
+                </a>
+                <a href="" class="pg-icon-link">
+                    <span>
+                        <i class="fa-solid fa-user fa-flip fa-2xl" style="color: #fde12d; --fa-animation-duration: 2s;"></i>
+                    </span>
+                </a>
+               
             </div>
         </nav>
     </section>
@@ -60,25 +75,24 @@
         <!--*-------------------------------------- BANNER: end --------------------------------------*-->
 
         <!--*-------------------------------------- SERVICES: start --------------------------------------*-->
-        <!--*TODO: Change layout of divs in a creative way-->
         
         <section class="services-container">
             <div class="banner-services">
     
                 <div class="services">
-                    <button class="services-btn"><img src="/Assests/images/truck (black).svg" class="services-btn-img"><span>Quality Products</span></button>
+                    <button class="services-btn"><i class="fa-solid fa-award fa-flip fa-5x" style="color: #000000; --fa-animation-duration: 2s;"></i><h1>QUALITY PRODUCTS</h1></button>
                 </div>
     
                 <div class="services">
-                    <button class="services-btn"><img src="/Assests/images/truck (black).svg" class="services-btn-img"><span>Free Shipping</span></button>
+                    <button class="services-btn" style="background-color: #293FD1; color: white;"><i class="fa-solid fa-truck-fast fa-bounce fa-4x" style="color: #ffffff;"></i><h1>FREE SHIPPING</h1></button>
                 </div>
     
                 <div class="services">
-                    <button class="services-btn"><img src="/Assests/images/truck (black).svg" class="services-btn-img"><span>30 Day Return</span></button>
+                    <button class="services-btn"><i class="fa-solid fa-arrow-right-arrow-left fa-flip fa-5x" style="color: #000000; --fa-animation-duration: 2s;"></i><h1>30 DAY RETURN</h1></button>
                 </div>
     
                 <div class="services">
-                    <button class="services-btn"><img src="/Assests/images/truck (black).svg" class="services-btn-img"><span>24/7 Support</span></button>
+                    <button class="services-btn" style="background-color: #293FD1; color: white;"><i class="fa-solid fa-phone-volume fa-shake fa-4x" style="color: #ffffff;"></i><h1>24/7 SUPPORT</h1></button>
                 </div>
     
             </div>
@@ -87,30 +101,29 @@
         <!--*-------------------------------------- SERVICES: end --------------------------------------*-->
 
         <!--*-------------------------------------- CATEGORY: start --------------------------------------*-->
-        <!--*TODO: Change layout of divs in a creative way-->
 
         <section class="sect-layou sect-categ">
-            <!--*TODO: Use transparent background images-->
+
             <div class="categ-container">
                 <a href="explore.html" class="categ-link">
-                    <h6>200+ Products</h6>
-                    <img src="/Assests/images/cat-1.jpg" alt="">
+                    <h6>| 200+ Products</h6>
+                    <img src="/Assests/images/men-1.png" alt="">
                     <h2>Men's Fashion</h2>
                 </a>
             </div>
 
             <div class="categ-container">
                 <a href="explore.html" class="categ-link">
-                    <h6>500+ Products</h6>
-                    <img src="/Assests/images/cat-2.jpg" alt="">
+                    <h6>| 500+ Products</h6>
+                    <img src="/Assests/images/woman-1.png" alt="">
                     <h2>Women's Fashion</h2>
                 </a>
             </div>
 
             <div class="categ-container">
                 <a href="explore.html" class="categ-link">
-                    <h6>300+ Products</h6>
-                    <img src="/Assests/images/cat-3.jpg" alt="">
+                    <h6>| 300+ Products</h6>
+                    <img src="/Assests/images/kid-1.png" alt="">
                     <h2>Kid's Fashion</h2>
                 </a>
             </div>
@@ -125,7 +138,7 @@
             <div class="offer-container">
                 <img src="/Assests/images/offer-1.png">
                 <div class="offer-txt">
-                    <h4>30% OFF ON EVERYTHING</h4>
+                    <h6>30% OFF ON EVERYTHING</h6>
                     <h2>SPRING COLLECTION</h2>
                     <button class="offer-btn">
                         <a href="explore.html" class="shop-now-link offer-link">SHOP NOW</a>
@@ -137,7 +150,7 @@
 
                 <img src="/Assests/images/offer-2.png">
                 <div class="offer-txt">
-                    <h4>45% OFF ON EVERYTHING</h4>
+                    <h6>45% OFF ON EVERYTHING</h6>
                     <h2>WINTER COLLECTION</h2>
                     <button class="offer-btn">
                         <a href="explore.html" class="shop-now-link offer-link">SHOP NOW</a>
@@ -157,7 +170,7 @@
                 <h5>Subscribe to our newsletter to stay updated on all<br>latest offers & fashion trends</h5>
                 <div class="sub-input">
                     <input type="email" class="sub-input-field" placeholder="Enter e-mail id.">
-                    <button type="submit" class="sub-btn"><img src="/Assests/images/truck (black).svg"></button>
+                    <button type="submit" class="sub-btn"><i class="fa-solid fa-handshake fa-bounce fa-4x" style="color: #ffffff; --fa-bounce-height: 2px"></i></button>
                 </div>
             </div>
 
@@ -169,24 +182,27 @@
 
             <div class="partner-container">
 
-                <div class="partner-txt">
-                    <h2>OUR PARTNERS :</h2>
+                <div class="txt-cont">
+                    <div class="partner-txt">
+                        <h2>OUR PARTNERS :</h2>
+                    </div>
                 </div>
 
-                <div class="partner">
-                    <div class="partner-logo">
-                        <img src="/Assests/images/truck (black).svg" alt="">
-                    </div>
-                    <div class="partner-logo">
-                        <img src="/Assests/images/truck (black).svg" alt="">
-                    </div>
-                    <div class="partner-logo">
-                        <img src="/Assests/images/truck (black).svg" alt="">
-                    </div>
-                    <div class="partner-logo">
-                        <img src="/Assests/images/truck (black).svg" alt="">
-                    </div>
+                
+                <div class="partner-logo logo-1">
+                    <img src="/Assests/images/myntra.svg" alt="">
                 </div>
+                <div class="partner-logo logo-2">
+                    <img src="/Assests/images/amazon.svg" alt="">
+                </div>
+    
+                <div class="partner-logo logo-3">
+                    <img src="/Assests/images/flipkart.svg" alt="">
+                </div>
+                <div class="partner-logo logo-4">
+                    <img src="/Assests/images/unnamed.png" alt="">
+                </div>
+               
 
             </div>
 
@@ -197,15 +213,66 @@
         <section class="sect-layout sect-footer">
 
             <div class="footer-content">
-                <div class="footer-desc"></div>
-                <div class="qick"></div>
-                <div class="contact"></div>
-                <div class="newsletter"></div>
-            </div>
 
+                <div class="footer-desc">
+                    <div class="footer-title">
+                        <h1><a href="home.html" class="home-link"><span class="ze">ZE</span><span class="comm">Comm</span></a></h1>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eum deserunt reprehenderit laborum ratione voluptas nesciunt officiis, aspernatur nulla, magnam aliquid eius. Sunt natus, distinctio consequuntur iusto sapiente nobis at, nostrum eaque esse laboriosam deleniti nam cupiditate maiores veniam mollitia inventore perspiciatis repellat nesciunt. Modi laboriosam non dolore labore iusto!</p>
+                    <div class="desc-contact">
+                        <div class="desc-loc">
+                            <img src="" alt="">
+                            <i class="fa-solid fa-map-location-dot" style="color: #CC001B;"></i>
+                            123 Street, New York, USA
+                        </div>
+                        <div class="desc-phn">
+                            <img src="" alt="">
+                            <i class="fa-solid fa-square-phone" style="color: #CC001B;"></i>
+                            010-223-4455
+                        </div>
+                        <div class="desc-email">
+                            <img src="" alt="">
+                            <i class="fa-solid fa-envelope" style="color: #CC001B;"></i>
+                            john_doe @ abc.in
+                        </div>
+                        <i class="fa-brands fa-instagram fa-1x" style="color: #CC001B; margin: 5px;"></i>
+                        <i class="fa-brands fa-twitter fa-1x" style="color: #CC001B; margin: 5px;"></i>
+                        <i class="fa-brands fa-facebook fa-1x" style="color: #CC001B; margin: 5px;"></i>
+                        <i class="fa-brands fa-whatsapp fa-1x" style="color: #CC001B; margin: 5px;"></i>
+                    </div>
+                </div>
+                <div class="quick">
+                    <h1>Quick Links -</h1>
+                    <ul class="quick-list">
+                        <li><a href="home.html" class="quick-links">Home</a></li>
+                        <li><a href="explore.html" class="quick-links">Explore Our Shop</a></li>
+                        <li><a href="https://www.myntra.com/" target="-blank" class="quick-links">Reference</a></li>
+                        <li><a href="cart.html" class="quick-links">Cart</a></li>
+                        <li><a href="" class="quick-links">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <h1>Newsletter</h1>
+                    <div class="desc-sub">
+                        <div class="desc-inp">
+                            <input class="inp-name" type="text" placeholder="Enter your name">
+                            <input class="inp-email" type="email" name="" id="" placeholder="Enter your e-mail">
+                        </div>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+                
+            </div>
             <div class="copyright">
-                <div class="copy-txt"></div>
-                <img src="" alt="">
+
+                <div class="copyright-cont">
+                    <div class="copy-txt">
+                        <i class="fa-regular fa-copyright" style="color: #000000;"></i>
+                        <b>Rishabh Trivedi.</b> ALL RIGHTS RESERVED. Designed by <b>RISHABH TRIVEDI.</b> 
+                    </div>
+                    <img src="/Assests/images/payments.png" alt="">
+                </div>
+
             </div>
 
         </section>
